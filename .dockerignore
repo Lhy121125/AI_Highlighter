@@ -1,0 +1,61 @@
+# Ignore Python environment folders
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv
+env
+ENV
+build
+dist
+*.egg-info
+
+# Ignore version control systems
+.git
+.gitignore
+.svn
+.cvsignore
+
+# Ignore Dockerfile and docker-compose files to avoid accidentally copying over sensitive data or build specifications
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Ignore large data folders that should not be added to the Docker context
+data
+models
+
+# Ignore common files that are often not required
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.jpg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.ico
+*.pdf
+*.mp4
+*.mp3
+*.flv
+*.avi
+
+# Ignore specific config files or sensitive information
+*.pem
+*.key
+*.cert
+config.ini
+.secret
+
+# inside the directory
+paraphrase-MiniLM-L6-v2
+LICENSE
+README.md
+register_model.py
+.gitignore
+keys
+__pycache__
